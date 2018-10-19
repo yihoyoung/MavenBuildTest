@@ -15,4 +15,4 @@ RUN bash -c 'touch /demo.jar'
 COPY entrypoint.sh entrypoint.sh
 RUN chmod +x entrypoint.sh
 
-ENTRYPONT ["./entrypont.sh"]
+ENTRYPOINT ["./entrypont.sh"]
